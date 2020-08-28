@@ -1,0 +1,24 @@
+object Form2: TForm2
+  Left = 510
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = #1058#1072#1082#1090#1080#1095#1077#1089#1082#1072#1103' '#1072#1088#1077#1085#1072
+  ClientHeight = 711
+  ClientWidth = 935
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnKeyDown = FormKeyDown
+  OnMouseDown = FormMouseDown
+  OnShow = FormShow
+  Left = 510
+  DesignerMasterStyle = 0
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = Timer1Timer
+  end
+end

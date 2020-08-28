@@ -1,0 +1,9 @@
+/Win32/Debug/*.dcu
+/Win32/Debug/app.log
+/Win32/Debug/ArenaFight.exe
+*.dcu
+*.exe
+/Win32/Release/
+/Win32/Debug/Zombie.dat
+/Win32/Debug/Hero.dat
+/Win32/Debug/Res.dat

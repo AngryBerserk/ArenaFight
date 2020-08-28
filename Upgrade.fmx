@@ -1,0 +1,375 @@
+object FUpgrade: TFUpgrade
+  Left = 810
+  Top = 150
+  BorderIcons = []
+  BorderStyle = ToolWindow
+  ClientHeight = 612
+  ClientWidth = 337
+  Position = MainFormCenter
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnPaint = FormPaint
+  OnShow = FormShow
+  Left = 810
+  Top = 150
+  DesignerMasterStyle = 0
+  object LLevelNum: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 16.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1059#1088#1086#1074#1077#1085#1100' 1 '#1079#1072#1074#1077#1088#1096#1105#1085
+  end
+  object BNextLevel: TButton
+    StyledSettings = [FontColor]
+    Position.X = 40.000000000000000000
+    Position.Y = 552.000000000000000000
+    Size.Width = 257.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #1057#1083#1077#1076#1091#1102#1097#1080#1081' '#1091#1088#1086#1074#1077#1085#1100
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    OnClick = BNextLevelClick
+  end
+  object LXP: TLabel
+    StyledSettings = [FontColor]
+    Position.X = -8.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1054#1095#1082#1086#1074' '#1086#1089#1090#1072#1083#1086#1089#1100': 5'
+  end
+  object LAttack: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 96.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1040#1090#1072#1082#1072': 1'
+    object BAttackP: TButton
+      StyledSettings = [FontColor]
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BAttackPClick
+    end
+    object BAttackM: TButton
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BAttackMClick
+    end
+  end
+  object LHP: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 144.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1047#1076#1086#1088#1086#1074#1100#1077': 5'
+    object BHPM: TButton
+      Action = APoints
+      Enabled = True
+      StyledSettings = [FontColor]
+      ImageIndex = -1
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      Visible = True
+      OnClick = BHPMClick
+    end
+    object BHPP: TButton
+      Action = APoints
+      Enabled = True
+      StyledSettings = [FontColor]
+      ImageIndex = -1
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      Visible = True
+      OnClick = BHPPClick
+    end
+  end
+  object LSpeed: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 192.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1057#1082#1086#1088#1086#1089#1090#1100': 5'
+    object BSpeedM: TButton
+      Action = APoints
+      Enabled = True
+      StyledSettings = [FontColor]
+      ImageIndex = -1
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      Visible = True
+      OnClick = BSpeedMClick
+    end
+    object BSpeedP: TButton
+      Action = APoints
+      Enabled = True
+      StyledSettings = [FontColor]
+      ImageIndex = -1
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      Visible = True
+      OnClick = BSpeedPClick
+    end
+  end
+  object LBow: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 280.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1051#1091#1082
+    object BBowM: TButton
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BBowMClick
+    end
+    object BBowP: TButton
+      StyledSettings = [FontColor]
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BBowPClick
+    end
+  end
+  object LRanged: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 240.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1054#1088#1091#1078#1080#1077' '#1076#1072#1083#1100#1085#1077#1075#1086' '#1073#1086#1103
+  end
+  object LMagic: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 328.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1052#1072#1075#1080#1103
+  end
+  object LVamp: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 360.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1042#1072#1084#1087#1080#1088#1080#1079#1084': 0'
+    object BVampP: TButton
+      StyledSettings = [FontColor]
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BVampPClick
+    end
+    object BVampM: TButton
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BVampMClick
+    end
+  end
+  object LPyro: TLabel
+    StyledSettings = [FontColor]
+    Position.Y = 408.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Bookman Old Style'
+    TextSettings.Font.Size = 26.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    TextSettings.WordWrap = False
+    Text = #1055#1080#1088#1086#1082#1080#1085#1077#1079': 0'
+    object BPyroP: TButton
+      StyledSettings = [FontColor]
+      Position.X = 288.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '>'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BPyroPClick
+    end
+    object BPyroM: TButton
+      StyledSettings = [FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = -7.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = '<'
+      TextSettings.Font.Family = 'Bookman Old Style'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.Style = [fsBold]
+      OnClick = BPyroMClick
+    end
+  end
+  object ActionList1: TActionList
+    Left = 296
+    Top = 568
+    object APoints: TAction
+      Text = 'APoints'
+      OnExecute = APointsExecute
+    end
+    object AAttack: TAction
+      OnExecute = AAttackExecute
+    end
+    object AHP: TAction
+      OnExecute = AHPExecute
+    end
+    object AArchery: TAction
+      OnExecute = AArcheryExecute
+    end
+    object ASpeed: TAction
+      Text = 'ASpeed'
+      OnExecute = ASpeedExecute
+    end
+    object AVamp: TAction
+      OnExecute = AVampExecute
+    end
+    object APyro: TAction
+      OnExecute = APyroExecute
+    end
+  end
+end

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.893,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.738,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.481,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.313,F:\Proj\Delphi\ArenaFight\Unit1.fmx=F:\Proj\Delphi\ArenaFight\NewLevel.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,=F:\Proj\Delphi\ArenaFight\Hero.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.616,=F:\Proj\Delphi\ArenaFight\Packer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.081,=F:\Proj\Delphi\ArenaFight\SoundPlayer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.660,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.313,F:\Proj\Delphi\ArenaFight\Unit1.pas=F:\Proj\Delphi\ArenaFight\NewLevel.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,F:\Proj\Delphi\ArenaFight\Unit1.pas=F:\Proj\Delphi\ArenaFight\GameObjects.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.656,F:\Proj\Delphi\ArenaFight\FX.pas=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.287,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.035,F:\Proj\Delphi\ArenaFight\Unit1.pas=F:\Proj\Delphi\ArenaFight\Levels.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.371,=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.876,F:\Proj\Delphi\ArenaFight\Upgrade.pas=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.610,=F:\Proj\Delphi\ArenaFight\Animation.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.766,=F:\Proj\Delphi\ArenaFight\Painter.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.561,=C:\Users\Chertushkin\Pictures\Sprites\Maze\Sword.ico</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.413,F:\Proj\Delphi\ArenaFight\Perks.pas=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,F:\Proj\Delphi\Project2.dproj=F:\Proj\Delphi\ArenaFight\ArenaFight.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.583,C:\Users\Chertushkin\Pictures\Sprites\Maze\Sword.ico=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,F:\Proj\Delphi\Unit2.fmx=F:\Proj\Delphi\ArenaFight\Main.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.200,=F:\Proj\Delphi\ArenaFight\Log.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.393,=F:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.117,F:\Proj\Delphi\Unit2.pas=F:\Proj\Delphi\ArenaFight\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.225,=E:\Proj\Delphi\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.876,F:\Proj\Delphi\ArenaFight\Upgrade.fmx=F:\Proj\Delphi\ArenaFight\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.730,F:\Proj\Delphi\ArenaFight\Mobs.pas=F:\Proj\Delphi\ArenaFight\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.928,=E:\Proj\Delphi\Unit2.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="apk-expansion.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="Animation.pas"/>
+    <File Path="GameObjects.pas"/>
+    <File Path="Hero.pas"/>
+    <File Path="Levels.pas"/>
+    <File Path="Log.pas"/>
+    <File Path="Main.pas"/>
+    <File Path="Main.fmx"/>
+    <File Path="NewLevel.pas"/>
+    <File Path="NewLevel.fmx"/>
+    <File Path="Packer.pas"/>
+    <File Path="Painter.pas"/>
+    <File Path="SoundPlayer.pas"/>
+    <File Path="Upgrade.pas"/>
+    <File Path="Upgrade.fmx"/>
+    <File Path="Perks.pas"/>
+    <File Path="Mobs.pas"/>
+    <File Path="FX.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
